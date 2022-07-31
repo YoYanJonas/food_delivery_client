@@ -1,0 +1,231 @@
+/*=============================================
+=                 #Varibles                   =
+=============================================*/
+
+/**
+ *
+ *                  Table of content
+ *
+ *
+ *
+ ***COLORS
+ *brand
+ *UI
+ *
+ *
+ *
+ *
+ *
+ *
+ ***TYPOGRAPHY
+ *font family
+    Merriweather
+    montserrat
+ *
+ *sizes
+ *heading sizes
+ *weights
+ *latter-spacing 
+ *line-height
+ *transforms
+ *decorations
+ *styles
+ *
+ *
+ *
+ *** BREAKPOINTS
+ *global breakpoints
+ *
+ *
+ *
+ *** SPACING
+ *spacings
+ *
+ *
+ *
+ *
+ */
+
+/*=============================================
+ =                     COLORS                  =
+ =============================================*/
+
+/* Brand COLORS                          */
+$Picton-Blue: #388aed;
+$Viking: #68ddc6;
+$Ice-Cold: #9bf0e1;
+$Milan: #fdfb9f;
+$Brilliant-Rose: #f037a5;
+
+/* UI COLORS                        */
+$Mariner: #2e77d0;
+$Matisse: #255fa6;
+$Alizarin-Crimson: #e22134;
+$Orange-Peel: #ff9800;
+$Gorse: #ffed51;
+$Mountain-Meadow: #1db954;
+$Transparent: Transparent;
+//BnW
+$BLACK1: #000;
+$BLACK2: #181818;
+$BLACK3: #282828;
+$BLACK4: #333;
+$GRAY1: #404040;
+$GRAY2: #616161;
+$GRAY3: #757575;
+$GRAY4: #9e9e9e;
+$GRAY5: #bdbdbd;
+$GRAY6: #d9d9d9;
+$GRAY7: #eee;
+$GRAY8: #f8f8f8;
+$WHITE: #fff;
+
+/*=====           End of COLORS       ======*/
+
+/*=============================================
+=                 TYPOGRAPHY                    =
+=============================================*/
+
+/* links 
+*1) used for entire parts
+*   https://www.cdnfonts.com/helvetica-neue-9.font
+*
+*
+*
+*2) alternative 
+*   https://fonts.google.com/specimen/Arimo
+*
+*/
+
+/*               FONT FAMILIES                */
+$HelveticaNeue: "Helvetica Neue", "Arimo", Arial, sans-serif; /* 1 & 2*/
+
+/*                FONT SIZES                  */
+$fs-xxs: 0.625rem; //10px
+
+$fs-xs: 0.75rem; //12px
+
+$fs-sm: 0.875rem; //14px
+
+$fs-base: 1rem; //16px
+
+$fs-lg: 1.125rem; //18px
+
+$fs-xl: 1.5rem; //24px
+
+$fs-xxl: 2rem; //32px
+
+/* DISPLAY FONT SIZES */
+
+$D-1: 5rem; //80px
+
+$D-2: 3rem; //48px
+
+/* HEADING FONT SIZES */
+
+$h-1: 2rem; // 32px
+
+$h-2: 1.5rem; //24px
+
+$h-3: 1.125rem; //18px
+
+/* FONT WEIGHTS */
+
+$fw-light: 300;
+
+$fw-normal: 400;
+
+$fw-medium: 500;
+
+$fw-semibold: 600;
+
+$fw-bold: 700;
+
+$fw-extrabold: 800;
+
+$fw-black: 900;
+
+/* LETTER SPACING */
+$f-ls-ultra-densed: -0.125rem; // -2px
+$f-ls-high-densed: -0.0625rem; // -1px
+$f-ls-medium-densed: -0.03125rem; // -0.5px
+$f-ls-semi-densed: -0.015625rem; // -.025px
+$f-ls-normal: 0; // 0px
+$f-ls-semi-gapped: 0.015625rem; // 0.25px
+$f-ls-medium-gapped: 0.0625rem; // 1px
+$f-ls-high-gapped: 0.09375rem; // 1.5px
+
+/* LINE HEIGHT */
+$f-lh-7: 5.5rem; // 88px
+$f-lh-6: 3.5rem; // 56px
+$f-lh-5: 2.5rem; // 40px
+$f-lh-4: 2rem; // 32px
+$f-lh-3: 1.625rem; // 26px
+$f-lh-2: 1.5rem; // 24px
+$f-lh-1: 1.25rem; // 20px
+$f-lh-normal: 1rem; // 16px
+$f-lh-short: 0.875rem; // 14px
+
+/* TRANSFORMS */
+$f-transform-none: none;
+$f-transform-capitalize: capitalize;
+$f-transform-uppercase: uppercase;
+$f-transform-lowercase: lowercase;
+$f-transform-full-width: full-width;
+
+/* DECORATIONS */
+$f-decoration-none: none;
+$f-decoration-underline: underline;
+$f-decoration-overline: overline;
+
+/* STYLES */
+$f-style-normal: normal;
+$f-style-italic: italic;
+
+/*=====          End of TYPOGRAPHY       ======*/
+
+/*=============================================
+=                  BREAKPOINTS                =
+=============================================*/
+
+$breakpoints: (
+  sm: 30rem,
+  // 480px
+  md: 48rem,
+  //768px
+  lg: 64rem,
+  //1024px
+  xl: 80rem,
+  //1280
+);
+
+/*=====         End of BREAKPOINTS       ======*/
+
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+$spacing: (
+  xxxxs: 0.125rem,
+  //2px
+  xxxs: 0.25rem,
+  //4px
+  xxs: 0.5rem,
+  //8px
+  xs: 0.75rem,
+  //12px
+  sm: 1rem,
+  //16px
+  md: 1.5rem,
+  //24px
+  lg: 2rem,
+  //32px
+  xl: 3rem,
+  //48px
+  xxl: 4.5rem,
+  //72px
+  xxxl: 6rem,
+  //96px
+);
+/*=====         End of Spacing        ======*/
+
+/*=====  End of Variables  ======*/

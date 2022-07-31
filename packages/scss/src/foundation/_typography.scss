@@ -1,0 +1,123 @@
+/*=============================================
+=                 Typography                 =
+=============================================*/
+/**
+ *
+ * here we define our actual font that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+/*=============================================
+=            Display fonts             =
+=============================================*/
+$d1-font-size: var(--dsy-d1-font-size, $D-1) !default;
+$d1-font-weight: var(--dsy-d1-font-weight, $fw-bold) !default;
+$d1-font-height: var(--dsy-d1-font-height, $f-lh-7) !default;
+$d1-font-spacing: var(--dsy-d1-font-spacing, $f-ls-ultra-densed) !default;
+
+$d2-font-size: var(--dsy-d2-font-size, $D-2) !default;
+$d2-font-weight: var(--dsy-d2-font-weight, $fw-bold) !default;
+$d2-font-height: var(--dsy-d2-font-height, $f-lh-6) !default;
+$d2-font-spacing: var(--dsy-d2-font-spacing, $f-ls-high-densed) !default;
+
+/*=====  End of Display fonts   ======*/
+
+/*=============================================
+ =              Body fonts                =
+ =============================================*/
+
+$body-1-font-size: var(--dsy-body-1-font-size, $fs-base) !default;
+$body-1-font-weight: var(--dsy-body-1-font-weight, $fw-medium) !default;
+$body-1-font-weight-bold: var(--dsy-body-1-font-weight-bold, $fw-bold) !default;
+$body-1-font-height: var(--dsy-body-1-font-height, $f-lh-2) !default;
+
+$body-2-font-size: var(--dsy-body-2-font-size, $fs-sm) !default;
+$body-2-font-weight: var(--dsy-body-2-font-weight, $fw-medium) !default;
+$body-2-font-weight-bold: var(--dsy-body-2-font-weight-bold, $fw-bold) !default;
+$body-2-font-height: var(--dsy-body-2-font-height, $f-lh-1) !default;
+
+/*=====     End of Body font sizes    ======*/
+
+/*=============================================
+=               Heading font                 =
+=============================================*/
+
+/* H1 */
+$h-1-font-size: var(--dsy-h1-font-size, $h-1) !default;
+$h-1-font-weight: var(--dsy-h1-font-weight, $fw-bold) !default;
+$h-1-font-height: var(--dsy-h1-font-height, $f-lh-5) !default;
+$h-1-font-spacing: var(--dsy-h1-font-spacing, $f-ls-medium-densed) !default;
+
+/* H2 */
+$h-2-font-size: var(--dsy-h2-font-size, $h-2) !default;
+$h-2-font-weight: var(--dsy-h2-font-weight, $fw-bold) !default;
+$h-2-font-weight-normal: var(--dsy-h2-font-weight-normal, $fw-normal) !default;
+$h-2-font-height: var(--dsy-h2-font-height, $f-lh-4) !default;
+$h-2-font-spacing: var(--dsy-h2-font-spacing, $f-ls-semi-densed) !default;
+
+/* H3 */
+$h-3-font-size: var(--dsy-h3-font-size, $h-3) !default;
+$h-3-font-weight: var(--dsy-h3-font-weight, $fw-bold) !default;
+$h-3-font-weight-medium: var(--dsy-h3-font-weight-medium, $fw-medium) !default;
+$h-3-font-height: var(--dsy-h3-font-height, $f-lh-3) !default;
+$h-3-font-spacing: var(--dsy-h3-font-spacing, $f-ls-semi-densed) !default;
+
+/*=====      End of Heading font   ======*/
+
+/*=============================================
+=                   small fonts                 =
+=============================================*/
+
+/* CTA md */
+$cta-md-font-size: var(--dsy-cta-md-font-size, $fs-sm) !default;
+$cta-md-font-weight: var(--dsy-cta-md-font-weight, $fw-bold) !default;
+$cta-md-font-height: var(--dsy-cta-md-font-height, $f-lh-normal) !default;
+$cta-md-font-spacing: var(--dsy-cta-md-font-spacing, $f-ls-high-gapped) !default;
+
+/* CTA sm */
+$cta-sm-font-size: var(--dsy-cta-sm-font-size, $fs-xs) !default;
+$cta-sm-font-weight: var(--dsy-cta-sm-font-weight, $fw-bold) !default;
+$cta-sm-font-height: var(--dsy-cta-sm-font-height, $f-lh-normal) !default;
+$cta-sm-font-spacing: var(--dsy-cta-sm-font-spacing, $f-ls-medium-gapped) !default;
+
+/* Label md */
+$label-md-font-size: var(--dsy-label-md-font-size, $fs-sm) !default;
+$label-md-font-weight: var(--dsy-label-md-font-weight, $fw-bold) !default;
+$label-md-font-height: var(--dsy-label-md-font-height, $f-lh-normal) !default;
+$label-md-font-spacing: var(--dsy-label-md-font-spacing, $f-ls-medium-gapped) !default;
+$label-md-font-capitalized: var(--dsy-label-md-font-capitalized, $f-transform-capitalize) !default;
+$label-md-font-uppercased: var(--dsy-label-md-font-uppercased, $f-transform-uppercase) !default;
+/* label sm */
+$label-sm-font-size: var(--dsy-label-sm-font-size, $fs-xs) !default;
+$label-sm-font-weight: var(--dsy-label-sm-font-weight, $fw-bold) !default;
+$label-sm-font-height: var(--dsy-label-sm-font-height, $f-lh-normal) !default;
+$label-sm-font-spacing: var(--dsy-label-sm-font-spacing, $f-ls-medium-gapped) !default;
+$label-sm-font-capitalized: var(--dsy-label-sm-font-capitalized, $f-transform-capitalize) !default;
+$label-sm-font-uppercased: var(--dsy-label-sm-font-uppercased, $f-transform-uppercase) !default;
+/* label xs */
+$label-xs-font-size: var(--dsy-label-xs-font-size, $fs-xxs) !default;
+$label-xs-font-weight: var(--dsy-label-xs-font-weight, $fw-bold) !default;
+$label-xs-font-height: var(--dsy-label-xs-font-height, $f-lh-short) !default;
+$label-xs-font-spacing: var(--dsy-label-xs-font-spacing, $f-ls-semi-gapped) !default;
+$label-xs-font-uppercased: var(--dsy-label-xs-font-uppercased, $f-transform-uppercase) !default;
+
+/* caption */
+$caption-font-size: var(--dsy-caption-font-size, $fs-xs) !default;
+$caption-font-weight: var(--dsy-caption-font-weight, $fw-medium) !default;
+$caption-font-weight-bold: var(--dsy-caption-font-weight-bold, $fw-bold) !default;
+$caption-font-height: var(--dsy-caption-font-height, $f-lh-normal) !default;
+$caption-font-spacing: var(--dsy-caption-font-spacing, $f-ls-semi-gapped) !default;
+
+/* Breadcrumb */
+$breadcrumb-font-size: var(--dsy-breadcrumb-font-size, $fs-xxs) !default;
+$breadcrumb-font-weight: var(--dsy-breadcrumb-font-weight, $fw-normal) !default;
+$breadcrumb-font-height: var(--dsy-breadcrumb-font-height, $f-lh-short) !default;
+$breadcrumb-font-spacing: var(--dsy-breadcrumb-font-spacing, $f-ls-semi-gapped) !default;
+$breadcrumb-font-underlined: var(--dsy-breadcrumb-font-underlined, $f-decoration-underline) !default;
+$breadcrumb-font-italic: var(--dsy-breadcrumb-font-italic, $f-style-italic) !default;
+/*=====         End of small fonts          ======*/

@@ -1,0 +1,755 @@
+/*=============================================
+=            Table Of content            =
+=============================================*/
+/**
+ *
+ *** Foundation
+ *
+ *** Base
+ *
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+ =               Foundations                  =
+ =============================================*/
+/*=============================================
+=                 #Varibles                   =
+=============================================*/
+/**
+ *
+ *                  Table of content
+ *
+ *
+ *
+ ***COLORS
+ *brand
+ *UI
+ *
+ *
+ *
+ *
+ *
+ *
+ ***TYPOGRAPHY
+ *font family
+    Merriweather
+    montserrat
+ *
+ *sizes
+ *heading sizes
+ *weights
+ *latter-spacing 
+ *line-height
+ *transforms
+ *decorations
+ *styles
+ *
+ *
+ *
+ *** BREAKPOINTS
+ *global breakpoints
+ *
+ *
+ *
+ *** SPACING
+ *spacings
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+ =                     COLORS                  =
+ =============================================*/
+/* Brand COLORS                          */
+/* UI COLORS                        */
+/*=====           End of COLORS       ======*/
+/*=============================================
+=                 TYPOGRAPHY                    =
+=============================================*/
+/* links 
+*1) used for entire parts
+*   https://www.cdnfonts.com/helvetica-neue-9.font
+*
+*
+*
+*2) alternative 
+*   https://fonts.google.com/specimen/Arimo
+*
+*/
+/*               FONT FAMILIES                */
+/* 1 & 2*/
+/*                FONT SIZES                  */
+/* DISPLAY FONT SIZES */
+/* HEADING FONT SIZES */
+/* FONT WEIGHTS */
+/* LETTER SPACING */
+/* LINE HEIGHT */
+/* TRANSFORMS */
+/* DECORATIONS */
+/* STYLES */
+/*=====          End of TYPOGRAPHY       ======*/
+/*=============================================
+=                  BREAKPOINTS                =
+=============================================*/
+/*=====         End of BREAKPOINTS       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=====  End of Variables  ======*/
+/*=============================================
+ =                   COLORS                    =
+ =============================================*/
+/**
+ *
+ * here we define our actual colors that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+
+ */
+/*=============================================
+ =              Global text colors             =
+ =============================================*/
+/* light mode */
+/* dark mode */
+/*===    Ed of Global text colors   ======*/
+/*=============================================
+=                   buttons                   =
+=============================================*/
+/*=====  End of buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=============================================
+=                 Typography                 =
+=============================================*/
+/**
+ *
+ * here we define our actual font that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+=            Display fonts             =
+=============================================*/
+/*=====  End of Display fonts   ======*/
+/*=============================================
+ =              Body fonts                =
+ =============================================*/
+/*=====     End of Body font sizes    ======*/
+/*=============================================
+=               Heading font                 =
+=============================================*/
+/* H1 */
+/* H2 */
+/* H3 */
+/*=====      End of Heading font   ======*/
+/*=============================================
+=                   small fonts                 =
+=============================================*/
+/* CTA md */
+/* CTA sm */
+/* Label md */
+/* label sm */
+/* label xs */
+/* caption */
+/* Breadcrumb */
+/*=====         End of small fonts          ======*/
+/*=============================================
+=                   MIXINS                    =
+=============================================*/
+/**
+ *
+ * helpful reusable function-like things that would help to implement styles in components.
+ *
+ *
+ *
+ *
+ *
+ */
+/* breakpoints mixins */
+/*=====      End of Foundations        ======*/
+/*=============================================
+=                    Base                       =
+=============================================*/
+/*=============================================
+=                 CSS RESET                  =
+=============================================*/
+/**
+ *
+ * the normalize.css npm package. for browser consistency.
+ *Link for SCSS: https://github.com/JohnAlbin/normalize-scss
+ *Link for CSS:  https://necolas.github.io/normalize.css/
+ */
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+/* Document
+       ========================================================================== */
+/**
+     * 1. Correct the line height in all browsers.
+     * 2. Prevent adjustments of font size after orientation changes in
+     *    IE on Windows Phone and in iOS.
+     */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers (opinionated).
+     */
+body {
+  margin: 0;
+}
+
+/**
+     * Add the correct display in IE 9-.
+     */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+       ========================================================================== */
+/**
+     * Add the correct display in IE 9-.
+     */
+figcaption,
+figure {
+  display: block;
+}
+
+/**
+     * Add the correct margin in IE 8.
+     */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+     * Add the correct display in IE.
+     */
+main {
+  display: block;
+}
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Links
+       ========================================================================== */
+/**
+     * 1. Remove the gray background on active links in IE 10.
+     * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+     */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/* Text-level semantics
+       ========================================================================== */
+/**
+     * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+     * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+     */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+     * Add the correct font weight in Chrome, Edge, and Safari.
+     */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+     * Add the correct font style in Android 4.3-.
+     */
+dfn {
+  font-style: italic;
+}
+
+/**
+     * Add the correct background and color in IE 9-.
+     */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+     * Add the correct font size in all browsers.
+     */
+small {
+  font-size: 80%;
+}
+
+/**
+     * Prevent `sub` and `sup` elements from affecting the line height in
+     * all browsers.
+     */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+       ========================================================================== */
+/**
+     * Add the correct display in IE 9-.
+     */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+     * Add the correct display in iOS 4-7.
+     */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+     * Remove the border on images inside links in IE 10-.
+     */
+img {
+  border-style: none;
+}
+
+/**
+     * Hide the overflow in IE.
+     */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+       ========================================================================== */
+/**
+     * 1. Change the font styles in all browsers (opinionated).
+     * 2. Remove the margin in Firefox and Safari.
+     */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+     * Show the overflow in IE.
+     */
+button {
+  overflow: visible;
+}
+
+/**
+     * Remove the inheritance of text transform in Edge, Firefox, and IE.
+     * 1. Remove the inheritance of text transform in Firefox.
+     */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+     * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+     *    controls in Android 4.
+     * 2. Correct the inability to style clickable types in iOS and Safari.
+     */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  /**
+       * Remove the inner border and padding in Firefox.
+       */
+  /**
+       * Restore the focus styles unset by the previous rule.
+       */
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+     * Show the overflow in Edge.
+     */
+input {
+  overflow: visible;
+}
+
+/**
+     * 1. Add the correct box sizing in IE 10-.
+     * 2. Remove the padding in IE 10-.
+     */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+     * Correct the cursor style of increment and decrement buttons in Chrome.
+     */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+     * 1. Correct the odd appearance in Chrome and Safari.
+     * 2. Correct the outline style in Safari.
+     */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+  /**
+       * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+       */
+}
+
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+     * 1. Correct the inability to style clickable types in iOS and Safari.
+     * 2. Change font properties to `inherit` in Safari.
+     */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/**
+     * Correct the padding in Firefox.
+     */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+     * 1. Correct the text wrapping in Edge and IE.
+     * 2. Correct the color inheritance from `fieldset` elements in IE.
+     * 3. Remove the padding so developers are not caught out when they zero out
+     *    `fieldset` elements in all browsers.
+     */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  color: inherit;
+  /* 2 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+     * 1. Add the correct display in IE 9-.
+     * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+     * Remove the default vertical scrollbar in IE.
+     */
+textarea {
+  overflow: auto;
+}
+
+/* Interactive
+       ========================================================================== */
+/*
+     * Add the correct display in Edge, IE, and Firefox.
+     */
+details {
+  display: block;
+}
+
+/*
+     * Add the correct display in all browsers.
+     */
+summary {
+  display: list-item;
+}
+
+/*
+     * Add the correct display in IE 9-.
+     */
+menu {
+  display: block;
+}
+
+/* Scripting
+       ========================================================================== */
+/**
+     * Add the correct display in IE 9-.
+     */
+canvas {
+  display: inline-block;
+}
+
+/**
+     * Add the correct display in IE.
+     */
+template {
+  display: none;
+}
+
+/* Hidden
+       ========================================================================== */
+/**
+     * Add the correct display in IE 10-.
+     */
+[hidden] {
+  display: none;
+}
+
+:root {
+  --dsy-body-background-color-light: #eee;
+  --dsy-body-text-color-light: #181818;
+  --dsy-header-text-color-light: #181818;
+  --dsy-label-sm-text-color-light: #757575;
+  --dsy-body-background-color-dark: #333;
+  --dsy-body-text-color-dark: #fff;
+  --dsy-btn-primary-color: #fff;
+  --dsy-btn-primary-bg: #2e77d0;
+  --dsy-btn-primary-bg-hover: #255fa6;
+  --dsy-btn-primary-color-disabled: #9e9e9e;
+  --dsy-btn-primary-bg-disabled: #bdbdbd;
+  --dsy-btn-secondary-color: #2e77d0;
+  --dsy-btn-secondary-bg: Transparent;
+  --dsy-btn-secondary-border: #2e77d0;
+  --dsy-btn-secondary-bg-hover: #255fa6;
+  --dsy-btn-secondary-bg-hover: Transparent;
+  --dsy-btn-secondary-bg-hover: #255fa6;
+  --dsy-btn-secondary-bg-disabled: #bdbdbd;
+  --dsy-btn-secondary-bg-disabled: Transparent;
+  --dsy-btn-secondary-border-disabled: #bdbdbd;
+  --dsy-btn-tertiary-color: #2e77d0;
+  --dsy-btn-tertiary-bg: Transparent;
+  --dsy-btn-tertiary-color-hover: #255fa6;
+  --dsy-btn-tertiary-bg-hover: Transparent;
+  --dsy-btn-tertiary-color-disabled: #bdbdbd;
+  --dsy-btn-tertiary-bg-disabled: Transparent;
+  --dsy-form-bg: #fff;
+  --dsy-form-color: #fff;
+  --dsy-form-input-text-color: #181818;
+  --dsy-form-border-color: #9e9e9e;
+  --dsy-form-error-color: #fff;
+  --dsy-form-input-text-color: #e22134;
+  --dsy-form-error-border-color: #e22134;
+  --dsy-form-focus-color: #fff;
+  --dsy-form-focus-border: #757575;
+  --dsy-form-input-text-color: #000;
+  --dsy-d1-font-size: 5rem;
+  --dsy-d1-font-weight: 700;
+  --dsy-d1-font-height: 5.5rem;
+  --dsy-d1-font-spacing: -0.125rem;
+  --dsy-d2-font-size: 3rem;
+  --dsy-d2-font-weight: 700;
+  --dsy-d2-font-height: 3.5rem;
+  --dsy-d2-font-spacing: -0.0625rem;
+  --dsy-body-1-font-size: 1rem;
+  --dsy-body-1-font-weight: 500;
+  --dsy-body-1-font-weight-bold: 700;
+  --dsy-body-1-font-height: 1.5rem;
+  --dsy-body-2-font-size: 0.875rem;
+  --dsy-body-2-font-weight: 500;
+  --dsy-body-2-font-weight-bold: 700;
+  --dsy-body-2-font-height: 1.25rem;
+  --dsy-h1-font-size: 2rem;
+  --dsy-h1-font-weight: 700;
+  --dsy-h1-font-height: 2.5rem;
+  --dsy-h1-font-spacing: -0.03125rem;
+  --dsy-h2-font-size: 1.5rem;
+  --dsy-h2-font-weight: 700;
+  --dsy-h2-font-weight-normal: 400;
+  --dsy-h2-font-height: 2rem;
+  --dsy-h2-font-spacing: -0.01562rem;
+  --dsy-h3-font-size: 1.125rem;
+  --dsy-h3-font-weight: 700;
+  --dsy-h3-font-weight-medium: 500;
+  --dsy-h3-font-height: 1.625rem;
+  --dsy-h3-font-spacing: -0.01562rem;
+  --dsy-cta-md-font-size: 0.875rem;
+  --dsy-cta-md-font-weight: 700;
+  --dsy-cta-md-font-height: 1rem;
+  --dsy-cta-md-font-spacing: 0.09375rem;
+  --dsy-cta-sm-font-size: 0.75rem;
+  --dsy-cta-sm-font-weight: 700;
+  --dsy-cta-sm-font-height: 1rem;
+  --dsy-cta-sm-font-spacing: 0.0625rem;
+  --dsy-label-md-font-size: 0.875rem;
+  --dsy-label-md-font-weight: 700;
+  --dsy-label-md-font-height: 1rem;
+  --dsy-label-md-font-spacing: 0.0625rem;
+  --dsy-label-md-font-capitalized: capitalize;
+  --dsy-label-md-font-uppercased: uppercase;
+  --dsy-label-sm-font-size: 0.75rem;
+  --dsy-label-sm-font-weight: 700;
+  --dsy-label-sm-font-height: 1rem;
+  --dsy-label-sm-font-spacing: 0.0625rem;
+  --dsy-label-sm-font-capitalized: capitalize;
+  --dsy-label-sm-font-uppercased: uppercase;
+  --dsy-label-xs-font-size: 0.625rem;
+  --dsy-label-xs-font-weight: 700;
+  --dsy-label-xs-font-height: 0.875rem;
+  --dsy-label-xs-font-spacing: 0.01562rem;
+  --dsy-label-xs-font-uppercased: uppercase;
+  --dsy-caption-font-size: 0.75rem;
+  --dsy-caption-font-weight: 500;
+  --dsy-caption-font-weight-bold: 700;
+  --dsy-caption-font-height: 1rem;
+  --dsy-caption-font-spacing: 0.01562rem;
+  --dsy-breadcrumb-font-size: 0.625rem;
+  --dsy-breadcrumb-font-weight: 400;
+  --dsy-breadcrumb-font-height: 0.875rem;
+  --dsy-breadcrumb-font-spacing: 0.01562rem;
+  --dsy-breadcrumb-font-underlined: underline;
+  --dsy-breadcrumb-font-italic: italic;
+}
+
+/*=====           End of Base             ======*/

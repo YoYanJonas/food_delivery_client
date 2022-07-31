@@ -1,0 +1,124 @@
+:root {
+  --dsy-body-background-color-light: #{$GRAY7};
+  --dsy-body-text-color-light: #{$BLACK2};
+  --dsy-header-text-color-light: #{$BLACK2};
+  --dsy-label-sm-text-color-light: #{$GRAY3};
+  --dsy-body-background-color-dark: #{$BLACK4};
+  --dsy-body-text-color-dark: #{$WHITE};
+
+  --dsy-btn-primary-color: #{$WHITE};
+  --dsy-btn-primary-bg: #{$Mariner};
+  --dsy-btn-primary-bg-hover: #{$Matisse};
+  --dsy-btn-primary-color-disabled: #{$GRAY4};
+  --dsy-btn-primary-bg-disabled: #{$GRAY5};
+
+  --dsy-btn-secondary-color: #{$Mariner};
+  --dsy-btn-secondary-bg: #{$Transparent};
+  --dsy-btn-secondary-border: #{$Mariner};
+  --dsy-btn-secondary-bg-hover: #{$Matisse};
+  --dsy-btn-secondary-bg-hover: #{$Transparent};
+  --dsy-btn-secondary-bg-hover: #{$Matisse};
+  --dsy-btn-secondary-bg-disabled: #{$GRAY5};
+  --dsy-btn-secondary-bg-disabled: #{$Transparent};
+  --dsy-btn-secondary-border-disabled: #{$GRAY5};
+
+  --dsy-btn-tertiary-color: #{$Mariner};
+  --dsy-btn-tertiary-bg: #{$Transparent};
+  --dsy-btn-tertiary-color-hover: #{$Matisse};
+  --dsy-btn-tertiary-bg-hover: #{$Transparent};
+  --dsy-btn-tertiary-color-disabled: #{$GRAY5};
+  --dsy-btn-tertiary-bg-disabled: #{$Transparent};
+
+  --dsy-form-bg: #{$WHITE};
+  --dsy-form-color: #{$WHITE};
+  --dsy-form-input-text-color: #{$BLACK2};
+  --dsy-form-border-color: #{$GRAY4};
+
+  --dsy-form-error-color: #{$WHITE};
+  --dsy-form-input-text-color: #{$Alizarin-Crimson};
+  --dsy-form-error-border-color: #{$Alizarin-Crimson};
+
+  --dsy-form-focus-color: #{$WHITE};
+  --dsy-form-focus-border: #{$GRAY3};
+  --dsy-form-input-text-color: #{$BLACK1};
+
+  --dsy-d1-font-size: #{$D-1};
+  --dsy-d1-font-weight: #{$fw-bold};
+  --dsy-d1-font-height: #{$f-lh-7};
+  --dsy-d1-font-spacing: #{$f-ls-ultra-densed};
+
+  --dsy-d2-font-size: #{$D-2};
+  --dsy-d2-font-weight: #{$fw-bold};
+  --dsy-d2-font-height: #{$f-lh-6};
+  --dsy-d2-font-spacing: #{$f-ls-high-densed};
+
+  --dsy-body-1-font-size: #{$fs-base};
+  --dsy-body-1-font-weight: #{$fw-medium};
+  --dsy-body-1-font-weight-bold: #{$fw-bold};
+  --dsy-body-1-font-height: #{$f-lh-2};
+
+  --dsy-body-2-font-size: #{$fs-sm};
+  --dsy-body-2-font-weight: #{$fw-medium};
+  --dsy-body-2-font-weight-bold: #{$fw-bold};
+  --dsy-body-2-font-height: #{$f-lh-1};
+
+  --dsy-h1-font-size: #{$h-1};
+  --dsy-h1-font-weight: #{$fw-bold};
+  --dsy-h1-font-height: #{$f-lh-5};
+  --dsy-h1-font-spacing: #{$f-ls-medium-densed};
+
+  --dsy-h2-font-size: #{$h-2};
+  --dsy-h2-font-weight: #{$fw-bold};
+  --dsy-h2-font-weight-normal: #{$fw-normal};
+  --dsy-h2-font-height: #{$f-lh-4};
+  --dsy-h2-font-spacing: #{$f-ls-semi-densed};
+
+  --dsy-h3-font-size: #{$h-3};
+  --dsy-h3-font-weight: #{$fw-bold};
+  --dsy-h3-font-weight-medium: #{$fw-medium};
+  --dsy-h3-font-height: #{$f-lh-3};
+  --dsy-h3-font-spacing: #{$f-ls-semi-densed};
+
+  --dsy-cta-md-font-size: #{$fs-sm};
+  --dsy-cta-md-font-weight: #{$fw-bold};
+  --dsy-cta-md-font-height: #{$f-lh-normal};
+  --dsy-cta-md-font-spacing: #{$f-ls-high-gapped};
+
+  --dsy-cta-sm-font-size: #{$fs-xs};
+  --dsy-cta-sm-font-weight: #{$fw-bold};
+  --dsy-cta-sm-font-height: #{$f-lh-normal};
+  --dsy-cta-sm-font-spacing: #{$f-ls-medium-gapped};
+
+  --dsy-label-md-font-size: #{$fs-sm};
+  --dsy-label-md-font-weight: #{$fw-bold};
+  --dsy-label-md-font-height: #{$f-lh-normal};
+  --dsy-label-md-font-spacing: #{$f-ls-medium-gapped};
+  --dsy-label-md-font-capitalized: #{$f-transform-capitalize};
+  --dsy-label-md-font-uppercased: #{$f-transform-uppercase};
+
+  --dsy-label-sm-font-size: #{$fs-xs};
+  --dsy-label-sm-font-weight: #{$fw-bold};
+  --dsy-label-sm-font-height: #{$f-lh-normal};
+  --dsy-label-sm-font-spacing: #{$f-ls-medium-gapped};
+  --dsy-label-sm-font-capitalized: #{$f-transform-capitalize};
+  --dsy-label-sm-font-uppercased: #{$f-transform-uppercase};
+
+  --dsy-label-xs-font-size: #{$fs-xxs};
+  --dsy-label-xs-font-weight: #{$fw-bold};
+  --dsy-label-xs-font-height: #{$f-lh-short};
+  --dsy-label-xs-font-spacing: #{$f-ls-semi-gapped};
+  --dsy-label-xs-font-uppercased: #{$f-transform-uppercase};
+
+  --dsy-caption-font-size: #{$fs-xs};
+  --dsy-caption-font-weight: #{$fw-medium};
+  --dsy-caption-font-weight-bold: #{$fw-bold};
+  --dsy-caption-font-height: #{$f-lh-normal};
+  --dsy-caption-font-spacing: #{$f-ls-semi-gapped};
+
+  --dsy-breadcrumb-font-size: #{$fs-xxs};
+  --dsy-breadcrumb-font-weight: #{$fw-normal};
+  --dsy-breadcrumb-font-height: #{$f-lh-short};
+  --dsy-breadcrumb-font-spacing: #{$f-ls-semi-gapped};
+  --dsy-breadcrumb-font-underlined: #{$f-decoration-underline};
+  --dsy-breadcrumb-font-italic: #{$f-style-italic};
+}

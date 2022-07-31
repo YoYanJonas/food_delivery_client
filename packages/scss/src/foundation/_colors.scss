@@ -1,0 +1,76 @@
+/*=============================================
+ =                   COLORS                    =
+ =============================================*/
+/**
+ *
+ * here we define our actual colors that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+
+ */
+
+/*=============================================
+ =              Global text colors             =
+ =============================================*/
+
+/* light mode */
+$body-background-color-light: var(--dsy-body-background-color-light, $GRAY7) !default;
+$body-text-color-light: var(--dsy-body-text-color-light, $BLACK2) !default;
+
+$header-text-color-light: var(--dsy-header-text-color-light, $BLACK2) !default;
+
+$label-sm-text-color-light: var(--dsy-label-sm-text-color-light, $GRAY3) !default;
+/* dark mode */
+$body-background-color-dark: var(--dsy-body-background-color-dark, $BLACK4) !default;
+$body-text-color-dark: var(--dsy-body-text-color-dark, $WHITE) !default;
+
+/*===    Ed of Global text colors   ======*/
+
+/*=============================================
+=                   buttons                   =
+=============================================*/
+$btn-primary-color: var(--dsy-btn-primary-color, $WHITE) !default;
+$btn-primary-bg: var(--dsy-btn-primary-bg, $Mariner) !default;
+$btn-primary-bg-hover: var(--dsy-btn-primary-bg-hover, $Matisse) !default;
+$btn-primary-color-disabled: var(--dsy-btn-primary-color-disabled, $GRAY4) !default;
+$btn-primary-bg-disabled: var(--dsy-btn-primary-bg-disabled, $GRAY5) !default;
+
+$btn-secondary-color: var(--dsy-btn-secondary-color, $Mariner) !default;
+$btn-secondary-bg: var(--dsy-btn-secondary-bg, $Transparent) !default;
+$btn-secondary-border: var(--dsy-btn-secondary-border, $Mariner) !default;
+$btn-secondary-color-hover: var(--dsy-btn-secondary-bg-hover, $Matisse) !default;
+$btn-secondary-bg-hover: var(--dsy-btn-secondary-bg-hover, $Transparent) !default;
+$btn-secondary-border-hover: var(--dsy-btn-secondary-bg-hover, $Matisse) !default;
+$btn-secondary-color-disabled: var(--dsy-btn-secondary-bg-disabled, $GRAY5) !default;
+$btn-secondary-bg-disabled: var(--dsy-btn-secondary-bg-disabled, $Transparent) !default;
+$btn-secondary-border-disabled: var(--dsy-btn-secondary-border-disabled, $GRAY5) !default;
+
+$btn-tertiary-color: var(--dsy-btn-tertiary-color, $Mariner) !default;
+$btn-tertiary-bg: var(--dsy-btn-tertiary-bg, $Transparent) !default;
+$btn-tertiary-color-hover: var(--dsy-btn-tertiary-color-hover, $Matisse) !default;
+$btn-tertiary-bg-hover: var(--dsy-btn-tertiary-bg-hover, $Transparent) !default;
+$btn-tertiary-color-disabled: var(--dsy-btn-tertiary-color-disabled, $GRAY5) !default;
+$btn-tertiary-bg-disabled: var(--dsy-btn-tertiary-bg-disabled, $Transparent) !default;
+
+/*=====  End of buttons  ======*/
+
+/*=============================================
+=            Forms            =
+=============================================*/
+$form-bg: var(--dsy-form-bg, $WHITE) !default;
+$form-color: var(--dsy-form-color, $WHITE) !default; //inputs background color
+$form-input-text-color: var(--dsy-form-input-text-color, $BLACK2) !default;
+$form-border-color: var(--dsy-form-border-color, $GRAY4) !default;
+
+$form-error-color: var(--dsy-form-error-color, $WHITE) !default;
+$form-error-text-color: var(--dsy-form-input-text-color, $Alizarin-Crimson) !default;
+$form-error-border-color: var(--dsy-form-error-border-color, $Alizarin-Crimson) !default;
+
+$form-focus-color: var(--dsy-form-focus-color, $WHITE) !default;
+$form-focus-border: var(--dsy-form-focus-border, $GRAY3) !default;
+$form-focus-text-color: var(--dsy-form-input-text-color, $BLACK1) !default;
+
+/*=====  End of Forms  ======*/

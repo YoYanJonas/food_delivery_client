@@ -1,0 +1,172 @@
+/*=============================================
+=                 #Varibles                   =
+=============================================*/
+/**
+ *
+ *                  Table of content
+ *
+ *
+ *
+ ***COLORS
+ *brand
+ *UI
+ *
+ *
+ *
+ *
+ *
+ *
+ ***TYPOGRAPHY
+ *font family
+    Merriweather
+    montserrat
+ *
+ *sizes
+ *heading sizes
+ *weights
+ *latter-spacing 
+ *line-height
+ *transforms
+ *decorations
+ *styles
+ *
+ *
+ *
+ *** BREAKPOINTS
+ *global breakpoints
+ *
+ *
+ *
+ *** SPACING
+ *spacings
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+ =                     COLORS                  =
+ =============================================*/
+/* Brand COLORS                          */
+/* UI COLORS                        */
+/*=====           End of COLORS       ======*/
+/*=============================================
+=                 TYPOGRAPHY                    =
+=============================================*/
+/* links 
+*1) used for entire parts
+*   https://www.cdnfonts.com/helvetica-neue-9.font
+*
+*
+*
+*2) alternative 
+*   https://fonts.google.com/specimen/Arimo
+*
+*/
+/*               FONT FAMILIES                */
+/* 1 & 2*/
+/*                FONT SIZES                  */
+/* DISPLAY FONT SIZES */
+/* HEADING FONT SIZES */
+/* FONT WEIGHTS */
+/* LETTER SPACING */
+/* LINE HEIGHT */
+/* TRANSFORMS */
+/* DECORATIONS */
+/* STYLES */
+/*=====          End of TYPOGRAPHY       ======*/
+/*=============================================
+=                  BREAKPOINTS                =
+=============================================*/
+/*=====         End of BREAKPOINTS       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=====  End of Variables  ======*/
+/*=============================================
+ =                   COLORS                    =
+ =============================================*/
+/**
+ *
+ * here we define our actual colors that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+
+ */
+/*=============================================
+ =              Global text colors             =
+ =============================================*/
+/* light mode */
+/* dark mode */
+/*===    Ed of Global text colors   ======*/
+/*=============================================
+=                   buttons                   =
+=============================================*/
+/*=====  End of buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=============================================
+=                 Typography                 =
+=============================================*/
+/**
+ *
+ * here we define our actual font that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+=            Display fonts             =
+=============================================*/
+/*=====  End of Display fonts   ======*/
+/*=============================================
+ =              Body fonts                =
+ =============================================*/
+/*=====     End of Body font sizes    ======*/
+/*=============================================
+=               Heading font                 =
+=============================================*/
+/* H1 */
+/* H2 */
+/* H3 */
+/*=====      End of Heading font   ======*/
+/*=============================================
+=                   small fonts                 =
+=============================================*/
+/* CTA md */
+/* CTA sm */
+/* Label md */
+/* label sm */
+/* label xs */
+/* caption */
+/* Breadcrumb */
+/*=====         End of small fonts          ======*/
+/*=============================================
+=                   MIXINS                    =
+=============================================*/
+/**
+ *
+ * helpful reusable function-like things that would help to implement styles in components.
+ *
+ *
+ *
+ *
+ *
+ */
+/* breakpoints mixins */
+.dsy-button-container {
+  display: flex;
+  background: var(--dsy-btn-primary-bg, #2e77d0);
+  color: var(--dsy-btn-primary-color, #fff);
+  border: none;
+  padding: 0.25rem;
+}
