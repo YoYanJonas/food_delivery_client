@@ -1,0 +1,268 @@
+/*=============================================
+=                 #Varibles                   =
+=============================================*/
+/**
+ *
+ *                  Table of content
+ *
+ *
+ *
+ ***COLORS
+ *brand
+ *UI
+ *
+ *
+ *
+ *
+ *
+ *
+ ***TYPOGRAPHY
+ *font family
+    Merriweather
+    montserrat
+ *
+ *sizes
+ *heading sizes
+ *weights
+ *latter-spacing 
+ *line-height
+ *transforms
+ *decorations
+ *styles
+ *
+ *
+ *
+ *** BREAKPOINTS
+ *global breakpoints
+ *
+ *
+ *
+ *** SPACING
+ *spacings
+ *
+ *
+ ***Helper
+ *
+ */
+/*=============================================
+ =                     COLORS                  =
+ =============================================*/
+/* Brand COLORS                          */
+/* UI COLORS                        */
+/*=====           End of COLORS       ======*/
+/*=============================================
+=                 TYPOGRAPHY                    =
+=============================================*/
+/* links 
+*1) used for entire parts
+*   https://www.cdnfonts.com/helvetica-neue-9.font
+*
+*
+*
+*2) alternative 
+*   https://fonts.google.com/specimen/Arimo
+*
+*/
+/*               FONT FAMILIES                */
+/* 1 & 2*/
+/*                FONT SIZES                  */
+/* DISPLAY FONT SIZES */
+/* HEADING FONT SIZES */
+/* FONT WEIGHTS */
+/* LETTER SPACING */
+/* LINE HEIGHT */
+/* TRANSFORMS */
+/* DECORATIONS */
+/* STYLES */
+/*=====          End of TYPOGRAPHY       ======*/
+/*=============================================
+=                  BREAKPOINTS                =
+=============================================*/
+/*=====         End of BREAKPOINTS       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
+=     some px sizes in rem and root 16px        =
+=============================================*/
+/*=====  End of some px sizes in rem and root 16px  ======*/
+/*=====  End of Variables  ======*/
+/*=============================================
+ =                   COLORS                    =
+ =============================================*/
+/**
+ *
+ * here we define our actual colors that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+
+ */
+/*=============================================
+ =              Global text colors             =
+ =============================================*/
+/* light mode */
+/* dark mode */
+/*===    Ed of Global text colors   ======*/
+/*=============================================
+=                   buttons                   =
+=============================================*/
+/*=====  End of buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=============================================
+=                    Banner                   =
+=============================================*/
+/*=====           End of Banner       ======*/
+/*=============================================
+=                     Chips                    =
+=============================================*/
+/*=====            End of Chips            ======*/
+/*=============================================
+=                 Typography                 =
+=============================================*/
+/**
+ *
+ * here we define our actual font that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+ =                  Family                    =
+ =============================================*/
+/*=====           End of Family       ======*/
+/*=============================================
+=            Display fonts             =
+=============================================*/
+/*=====  End of Display fonts   ======*/
+/*=============================================
+ =              Body fonts                =
+ =============================================*/
+/*=====     End of Body font sizes    ======*/
+/*=============================================
+=               Heading font                 =
+=============================================*/
+/* H1 */
+/* H2 */
+/* H3 */
+/*=====      End of Heading font   ======*/
+/*=============================================
+=                   small fonts                 =
+=============================================*/
+/* CTA md */
+/* CTA sm */
+/* Label md */
+/* label sm */
+/* label xs */
+/* caption */
+/* Breadcrumb */
+/*=====         End of small fonts          ======*/
+/*=============================================
+=                   MIXINS                    =
+=============================================*/
+/**
+ *
+ * helpful reusable function-like things that would help to implement styles in components.
+ *
+ *
+ *
+ *
+ *
+ */
+/* breakpoints mixins */
+.dsy-default-banner-container {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 3.1875rem;
+  font: normal var(--dsy-body-2-font-weight, 500) var(--dsy-body-2-font-size, 0.875rem)/var(--dsy-body-2-font-height, 1.25rem) "Helvetica Neue", "Arimo", Arial, sans-serif;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  background-color: var(--dsy-banner-default-bg, #2e77d0);
+}
+
+.dsy-default-banner-container > svg {
+  stroke: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.dsy-error-banner-container {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 3.1875rem;
+  font: normal var(--dsy-body-2-font-weight, 500) var(--dsy-body-2-font-size, 0.875rem)/var(--dsy-body-2-font-height, 1.25rem) "Helvetica Neue", "Arimo", Arial, sans-serif;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  background-color: var(--dsy-banner-error-bg, #e22134);
+}
+
+.dsy-error-banner-container > svg {
+  stroke: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.dsy-withLinkB-banner-container {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 3.1875rem;
+  font: normal var(--dsy-body-2-font-weight, 500) var(--dsy-body-2-font-size, 0.875rem)/var(--dsy-body-2-font-height, 1.25rem) "Helvetica Neue", "Arimo", Arial, sans-serif;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  background-color: var(--dsy-banner-default-bg, #2e77d0);
+}
+
+.dsy-withLinkB-banner-container > a {
+  color: #000;
+}
+
+.dsy-withLinkB-banner-container > svg {
+  stroke: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.dsy-withLinkR-banner-container {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: 3.1875rem;
+  font: normal var(--dsy-body-2-font-weight, 500) var(--dsy-body-2-font-size, 0.875rem)/var(--dsy-body-2-font-height, 1.25rem) "Helvetica Neue", "Arimo", Arial, sans-serif;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  background-color: var(--dsy-banner-error-bg, #e22134);
+}
+
+.dsy-withLinkR-banner-container > a {
+  color: #000;
+}
+
+.dsy-withLinkR-banner-container > svg {
+  stroke: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+}

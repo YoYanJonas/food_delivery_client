@@ -1,0 +1,400 @@
+/*=============================================
+=                 #Varibles                   =
+=============================================*/
+/**
+ *
+ *                  Table of content
+ *
+ *
+ *
+ ***COLORS
+ *brand
+ *UI
+ *
+ *
+ *
+ *
+ *
+ *
+ ***TYPOGRAPHY
+ *font family
+    Merriweather
+    montserrat
+ *
+ *sizes
+ *heading sizes
+ *weights
+ *latter-spacing 
+ *line-height
+ *transforms
+ *decorations
+ *styles
+ *
+ *
+ *
+ *** BREAKPOINTS
+ *global breakpoints
+ *
+ *
+ *
+ *** SPACING
+ *spacings
+ *
+ *
+ ***Helper
+ *
+ */
+/*=============================================
+ =                     COLORS                  =
+ =============================================*/
+/* Brand COLORS                          */
+/* UI COLORS                        */
+/*=====           End of COLORS       ======*/
+/*=============================================
+=                 TYPOGRAPHY                    =
+=============================================*/
+/* links 
+*1) used for entire parts
+*   https://www.cdnfonts.com/helvetica-neue-9.font
+*
+*
+*
+*2) alternative 
+*   https://fonts.google.com/specimen/Arimo
+*
+*/
+/*               FONT FAMILIES                */
+/* 1 & 2*/
+/*                FONT SIZES                  */
+/* DISPLAY FONT SIZES */
+/* HEADING FONT SIZES */
+/* FONT WEIGHTS */
+/* LETTER SPACING */
+/* LINE HEIGHT */
+/* TRANSFORMS */
+/* DECORATIONS */
+/* STYLES */
+/*=====          End of TYPOGRAPHY       ======*/
+/*=============================================
+=                  BREAKPOINTS                =
+=============================================*/
+/*=====         End of BREAKPOINTS       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
+=     some px sizes in rem and root 16px        =
+=============================================*/
+/*=====  End of some px sizes in rem and root 16px  ======*/
+/*=====  End of Variables  ======*/
+/*=============================================
+ =                   COLORS                    =
+ =============================================*/
+/**
+ *
+ * here we define our actual colors that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+
+ */
+/*=============================================
+ =              Global text colors             =
+ =============================================*/
+/* light mode */
+/* dark mode */
+/*===    Ed of Global text colors   ======*/
+/*=============================================
+=                   buttons                   =
+=============================================*/
+/*=====  End of buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=============================================
+=                    Banner                   =
+=============================================*/
+/*=====           End of Banner       ======*/
+/*=============================================
+=                     Chips                    =
+=============================================*/
+/*=====            End of Chips            ======*/
+/*=============================================
+=                 Typography                 =
+=============================================*/
+/**
+ *
+ * here we define our actual font that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+ =                  Family                    =
+ =============================================*/
+/*=====           End of Family       ======*/
+/*=============================================
+=            Display fonts             =
+=============================================*/
+/*=====  End of Display fonts   ======*/
+/*=============================================
+ =              Body fonts                =
+ =============================================*/
+/*=====     End of Body font sizes    ======*/
+/*=============================================
+=               Heading font                 =
+=============================================*/
+/* H1 */
+/* H2 */
+/* H3 */
+/*=====      End of Heading font   ======*/
+/*=============================================
+=                   small fonts                 =
+=============================================*/
+/* CTA md */
+/* CTA sm */
+/* Label md */
+/* label sm */
+/* label xs */
+/* caption */
+/* Breadcrumb */
+/*=====         End of small fonts          ======*/
+/*=============================================
+=                   MIXINS                    =
+=============================================*/
+/**
+ *
+ * helpful reusable function-like things that would help to implement styles in components.
+ *
+ *
+ *
+ *
+ *
+ */
+/* breakpoints mixins */
+.dsy-margin-none {
+  margin: 0rem;
+}
+
+.dsy-margin-left-none {
+  margin-left: 0rem;
+}
+
+.dsy-margin-right-none {
+  margin-right: 0rem;
+}
+
+.dsy-margin-top-none {
+  margin-top: 0rem;
+}
+
+.dsy-margin-bottom-none {
+  margin-bottom: 0rem;
+}
+
+.dsy-margin-xxxxs {
+  margin: 0.125rem;
+}
+
+.dsy-margin-left-xxxxs {
+  margin-left: 0.125rem;
+}
+
+.dsy-margin-right-xxxxs {
+  margin-right: 0.125rem;
+}
+
+.dsy-margin-top-xxxxs {
+  margin-top: 0.125rem;
+}
+
+.dsy-margin-bottom-xxxxs {
+  margin-bottom: 0.125rem;
+}
+
+.dsy-margin-xxxs {
+  margin: 0.25rem;
+}
+
+.dsy-margin-left-xxxs {
+  margin-left: 0.25rem;
+}
+
+.dsy-margin-right-xxxs {
+  margin-right: 0.25rem;
+}
+
+.dsy-margin-top-xxxs {
+  margin-top: 0.25rem;
+}
+
+.dsy-margin-bottom-xxxs {
+  margin-bottom: 0.25rem;
+}
+
+.dsy-margin-xxs {
+  margin: 0.5rem;
+}
+
+.dsy-margin-left-xxs {
+  margin-left: 0.5rem;
+}
+
+.dsy-margin-right-xxs {
+  margin-right: 0.5rem;
+}
+
+.dsy-margin-top-xxs {
+  margin-top: 0.5rem;
+}
+
+.dsy-margin-bottom-xxs {
+  margin-bottom: 0.5rem;
+}
+
+.dsy-margin-xs {
+  margin: 0.75rem;
+}
+
+.dsy-margin-left-xs {
+  margin-left: 0.75rem;
+}
+
+.dsy-margin-right-xs {
+  margin-right: 0.75rem;
+}
+
+.dsy-margin-top-xs {
+  margin-top: 0.75rem;
+}
+
+.dsy-margin-bottom-xs {
+  margin-bottom: 0.75rem;
+}
+
+.dsy-margin-sm {
+  margin: 1rem;
+}
+
+.dsy-margin-left-sm {
+  margin-left: 1rem;
+}
+
+.dsy-margin-right-sm {
+  margin-right: 1rem;
+}
+
+.dsy-margin-top-sm {
+  margin-top: 1rem;
+}
+
+.dsy-margin-bottom-sm {
+  margin-bottom: 1rem;
+}
+
+.dsy-margin-md {
+  margin: 1.5rem;
+}
+
+.dsy-margin-left-md {
+  margin-left: 1.5rem;
+}
+
+.dsy-margin-right-md {
+  margin-right: 1.5rem;
+}
+
+.dsy-margin-top-md {
+  margin-top: 1.5rem;
+}
+
+.dsy-margin-bottom-md {
+  margin-bottom: 1.5rem;
+}
+
+.dsy-margin-lg {
+  margin: 2rem;
+}
+
+.dsy-margin-left-lg {
+  margin-left: 2rem;
+}
+
+.dsy-margin-right-lg {
+  margin-right: 2rem;
+}
+
+.dsy-margin-top-lg {
+  margin-top: 2rem;
+}
+
+.dsy-margin-bottom-lg {
+  margin-bottom: 2rem;
+}
+
+.dsy-margin-xl {
+  margin: 3rem;
+}
+
+.dsy-margin-left-xl {
+  margin-left: 3rem;
+}
+
+.dsy-margin-right-xl {
+  margin-right: 3rem;
+}
+
+.dsy-margin-top-xl {
+  margin-top: 3rem;
+}
+
+.dsy-margin-bottom-xl {
+  margin-bottom: 3rem;
+}
+
+.dsy-margin-xxl {
+  margin: 4.5rem;
+}
+
+.dsy-margin-left-xxl {
+  margin-left: 4.5rem;
+}
+
+.dsy-margin-right-xxl {
+  margin-right: 4.5rem;
+}
+
+.dsy-margin-top-xxl {
+  margin-top: 4.5rem;
+}
+
+.dsy-margin-bottom-xxl {
+  margin-bottom: 4.5rem;
+}
+
+.dsy-margin-xxxl {
+  margin: 6rem;
+}
+
+.dsy-margin-left-xxxl {
+  margin-left: 6rem;
+}
+
+.dsy-margin-right-xxxl {
+  margin-right: 6rem;
+}
+
+.dsy-margin-top-xxxl {
+  margin-top: 6rem;
+}
+
+.dsy-margin-bottom-xxxl {
+  margin-bottom: 6rem;
+}

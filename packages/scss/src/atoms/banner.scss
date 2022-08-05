@@ -1,0 +1,46 @@
+@import "foundation/all";
+
+$types: default, error, withLinkB, withLinkR;
+
+@mixin Banner($type) {
+  @if $type==default {
+    background-color: $banner-default-bg;
+  }
+  @if $type==error {
+    background-color: $banner-error-bg;
+  }
+  @if $type==withLinkB {
+    background-color: $banner-default-bg;
+    & > a {
+      color: $BLACK1;
+    }
+  }
+  @if $type==withLinkR {
+    background-color: $banner-error-bg;
+    & > a {
+      color: $BLACK1;
+    }
+  }
+}
+
+@each $type in $types {
+  .dsy-#{$type}-banner-container {
+    display: flex;
+    color: $WHITE;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 3.1875rem;
+    font: normal $body-2-font-weight $body-2-font-size/$body-2-font-height $HelveticaNeue;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: map-get($spacing, "xxxs");
+    @include Banner($type);
+
+    & > svg {
+      stroke: $WHITE;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}

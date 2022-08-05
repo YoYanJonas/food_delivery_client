@@ -34,6 +34,7 @@ $body-text-color-dark: var(--dsy-body-text-color-dark, $WHITE) !default;
 =============================================*/
 $btn-primary-color: var(--dsy-btn-primary-color, $WHITE) !default;
 $btn-primary-bg: var(--dsy-btn-primary-bg, $Mariner) !default;
+$btn-primary-color-hover: var(--dsy-btn-primary-color-hover, $WHITE) !default;
 $btn-primary-bg-hover: var(--dsy-btn-primary-bg-hover, $Matisse) !default;
 $btn-primary-color-disabled: var(--dsy-btn-primary-color-disabled, $GRAY4) !default;
 $btn-primary-bg-disabled: var(--dsy-btn-primary-bg-disabled, $GRAY5) !default;
@@ -41,10 +42,10 @@ $btn-primary-bg-disabled: var(--dsy-btn-primary-bg-disabled, $GRAY5) !default;
 $btn-secondary-color: var(--dsy-btn-secondary-color, $Mariner) !default;
 $btn-secondary-bg: var(--dsy-btn-secondary-bg, $Transparent) !default;
 $btn-secondary-border: var(--dsy-btn-secondary-border, $Mariner) !default;
-$btn-secondary-color-hover: var(--dsy-btn-secondary-bg-hover, $Matisse) !default;
+$btn-secondary-color-hover: var(--dsy-btn-secondary-color-hover, $Matisse) !default;
 $btn-secondary-bg-hover: var(--dsy-btn-secondary-bg-hover, $Transparent) !default;
-$btn-secondary-border-hover: var(--dsy-btn-secondary-bg-hover, $Matisse) !default;
-$btn-secondary-color-disabled: var(--dsy-btn-secondary-bg-disabled, $GRAY5) !default;
+$btn-secondary-border-hover: var(--dsy-btn-secondary-border-hover, $Matisse) !default;
+$btn-secondary-color-disabled: var(--dsy-btn-secondary-color-disabled, $GRAY5) !default;
 $btn-secondary-bg-disabled: var(--dsy-btn-secondary-bg-disabled, $Transparent) !default;
 $btn-secondary-border-disabled: var(--dsy-btn-secondary-border-disabled, $GRAY5) !default;
 
@@ -54,6 +55,13 @@ $btn-tertiary-color-hover: var(--dsy-btn-tertiary-color-hover, $Matisse) !defaul
 $btn-tertiary-bg-hover: var(--dsy-btn-tertiary-bg-hover, $Transparent) !default;
 $btn-tertiary-color-disabled: var(--dsy-btn-tertiary-color-disabled, $GRAY5) !default;
 $btn-tertiary-bg-disabled: var(--dsy-btn-tertiary-bg-disabled, $Transparent) !default;
+
+$btn-stacked-color: var(--dsy-btn-stacked-color, $Mariner) !default;
+$btn-stacked-bg: var(--dsy-btn-stacked-bg, $Transparent) !default;
+$btn-stacked-color-hover: var(--dsy-btn-stacked-color-hover, $Matisse) !default;
+$btn-stacked-bg-hover: var(--dsy-btn-stacked-bg-hover, $Transparent) !default;
+$btn-stacked-color-disabled: var(--dsy-btn-stacked-color-disabled, $GRAY5) !default;
+$btn-stacked-bg-disabled: var(--dsy-btn-stacked-bg-disabled, $Transparent) !default;
 
 /*=====  End of buttons  ======*/
 
@@ -74,3 +82,20 @@ $form-focus-border: var(--dsy-form-focus-border, $GRAY3) !default;
 $form-focus-text-color: var(--dsy-form-input-text-color, $BLACK1) !default;
 
 /*=====  End of Forms  ======*/
+
+/*=============================================
+=                    Banner                   =
+=============================================*/
+
+$banner-default-bg: var(--dsy-banner-default-bg, $Mariner) !default;
+
+$banner-error-bg: var(--dsy-banner-error-bg, $Alizarin-Crimson) !default;
+
+/*=====           End of Banner       ======*/
+
+/*=============================================
+=                     Chips                    =
+=============================================*/
+$chip-bg-color: var(--dsy-chip-bg-color, $GRAY6) !default;
+$chip-color: var(--dsy-chip-color, $BLACK2) !default;
+/*=====            End of Chips            ======*/

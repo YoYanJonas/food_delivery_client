@@ -42,7 +42,7 @@
  *spacings
  *
  *
- *
+ ***Helper
  *
  */
 
@@ -64,7 +64,7 @@ $Alizarin-Crimson: #e22134;
 $Orange-Peel: #ff9800;
 $Gorse: #ffed51;
 $Mountain-Meadow: #1db954;
-$Transparent: Transparent;
+$Transparent: rgba(0, 0, 0, 0);
 //BnW
 $BLACK1: #000;
 $BLACK2: #181818;
@@ -205,6 +205,8 @@ $breakpoints: (
 =                   Spacing                   =
 =============================================*/
 $spacing: (
+  none: 0rem,
+  // 0px
   xxxxs: 0.125rem,
   //2px
   xxxs: 0.25rem,
@@ -227,5 +229,19 @@ $spacing: (
   //96px
 );
 /*=====         End of Spacing        ======*/
+
+/*=============================================
+=     some px sizes in rem and root 16px        =
+=============================================*/
+$sizesPx2Rem: (
+  none: 0rem,
+  one: 0.0625rem,
+  two: 0.125rem,
+  three: 0.1875rem,
+  six: 0.375rem,
+  ten: 0.625rem,
+  hundred: 6.25rem,
+);
+/*=====  End of some px sizes in rem and root 16px  ======*/
 
 /*=====  End of Variables  ======*/

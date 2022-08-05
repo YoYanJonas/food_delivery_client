@@ -1,0 +1,48 @@
+@import "foundation/all";
+
+$types: large, deletableLarge, small, deletableSmall;
+
+@mixin Chip($type) {
+  @if $type == large {
+    height: map-get($spacing, "lg");
+    width: max-content;
+    gap: map-get($sizesPx2Rem, "six");
+    font: normal $body-2-font-weight $body-2-font-size/$body-2-font-height $HelveticaNeue;
+  }
+  @if $type == deletableLarge {
+    height: map-get($spacing, "lg");
+    width: max-content;
+    gap: map-get($sizesPx2Rem, "six");
+    font: normal $body-2-font-weight $body-2-font-size/$body-2-font-height $HelveticaNeue;
+  }
+  @if $type == small {
+    height: map-get($spacing, "md");
+    width: max-content;
+    gap: map-get($spacing, "xxxs");
+    letter-spacing: $caption-font-spacing;
+    font: normal $body-2-font-weight $label-sm-font-size/$body-2-font-height $HelveticaNeue;
+  }
+  @if $type == deletableSmall {
+    height: map-get($spacing, "md");
+    width: max-content;
+    gap: map-get($spacing, "xxxs");
+    letter-spacing: $caption-font-spacing;
+    font: normal $body-2-font-weight $label-sm-font-size/$body-2-font-height $HelveticaNeue;
+  }
+}
+
+@each $type in $types {
+  .dsy-#{$type}-chip-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: $chip-bg-color;
+    color: $chip-color;
+    padding: map-get($sizesPx2Rem, "ten") map-get($spacing, "xxs");
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border-radius: map-get($spacing, "xxxl");
+    @include Chip($type);
+  }
+}

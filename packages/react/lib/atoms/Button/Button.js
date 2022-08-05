@@ -1,8 +1,16 @@
 import React from 'react';
 
-const Button = ({ label }) => {
-    return React.createElement("button", { className: "dsy-button-container" }, label);
+var Buttontype;
+(function (Buttontype) {
+    Buttontype["primary"] = "primary";
+    Buttontype["secondary"] = "secondary";
+    Buttontype["tertiary"] = "tertiary";
+    Buttontype["stacked"] = "stacked";
+})(Buttontype || (Buttontype = {}));
+const Button = ({ label, model }) => {
+    const btnClass = `dsy-${model}-btn-container`;
+    return React.createElement("button", { className: btnClass }, label);
 };
 
-export { Button as default };
+export { Button, Buttontype };
 //# sourceMappingURL=Button.js.map

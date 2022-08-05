@@ -1,10 +1,17 @@
 import React from "react";
 
+export enum Buttontype {
+  primary = "primary",
+  secondary = "secondary",
+  tertiary = "tertiary",
+  stacked = "stacked",
+}
 interface ButtonProps {
   label: string;
+  model: Buttontype;
 }
-const Button: React.FunctionComponent<ButtonProps> = ({ label }) => {
-  return <button className="dsy-button-container">{label}</button>;
-};
+export const Button: React.FunctionComponent<ButtonProps> = ({ label, model }) => {
+  const btnClass = `dsy-${model}-btn-container`;
 
-export default Button;
+  return <button className={btnClass}>{label}</button>;
+};

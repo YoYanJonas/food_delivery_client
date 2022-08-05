@@ -1,0 +1,15 @@
+@import "foundation/all";
+
+$sides: left, right, top, bottom;
+
+@each $space, $value in $spacing {
+  .dsy-padding-#{$space} {
+    padding: $value;
+  }
+
+  @each $side in $sides {
+    .dsy-padding-#{$side}-#{$space} {
+      padding-#{$side}: $value;
+    }
+  }
+}

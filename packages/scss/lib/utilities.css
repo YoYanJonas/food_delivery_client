@@ -1,0 +1,316 @@
+/*=============================================
+=                 #Varibles                   =
+=============================================*/
+/**
+ *
+ *                  Table of content
+ *
+ *
+ *
+ ***COLORS
+ *brand
+ *UI
+ *
+ *
+ *
+ *
+ *
+ *
+ ***TYPOGRAPHY
+ *font family
+    Merriweather
+    montserrat
+ *
+ *sizes
+ *heading sizes
+ *weights
+ *latter-spacing 
+ *line-height
+ *transforms
+ *decorations
+ *styles
+ *
+ *
+ *
+ *** BREAKPOINTS
+ *global breakpoints
+ *
+ *
+ *
+ *** SPACING
+ *spacings
+ *
+ *
+ ***Helper
+ *
+ */
+/*=============================================
+ =                     COLORS                  =
+ =============================================*/
+/* Brand COLORS                          */
+/* UI COLORS                        */
+/*=====           End of COLORS       ======*/
+/*=============================================
+=                 TYPOGRAPHY                    =
+=============================================*/
+/* links 
+*1) used for entire parts
+*   https://www.cdnfonts.com/helvetica-neue-9.font
+*
+*
+*
+*2) alternative 
+*   https://fonts.google.com/specimen/Arimo
+*
+*/
+/*               FONT FAMILIES                */
+/* 1 & 2*/
+/*                FONT SIZES                  */
+/* DISPLAY FONT SIZES */
+/* HEADING FONT SIZES */
+/* FONT WEIGHTS */
+/* LETTER SPACING */
+/* LINE HEIGHT */
+/* TRANSFORMS */
+/* DECORATIONS */
+/* STYLES */
+/*=====          End of TYPOGRAPHY       ======*/
+/*=============================================
+=                  BREAKPOINTS                =
+=============================================*/
+/*=====         End of BREAKPOINTS       ======*/
+/*=============================================
+=                   Spacing                   =
+=============================================*/
+/*=====         End of Spacing        ======*/
+/*=============================================
+=     some px sizes in rem and root 16px        =
+=============================================*/
+/*=====  End of some px sizes in rem and root 16px  ======*/
+/*=====  End of Variables  ======*/
+/*=============================================
+ =                   COLORS                    =
+ =============================================*/
+/**
+ *
+ * here we define our actual colors that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+
+ */
+/*=============================================
+ =              Global text colors             =
+ =============================================*/
+/* light mode */
+/* dark mode */
+/*===    Ed of Global text colors   ======*/
+/*=============================================
+=                   buttons                   =
+=============================================*/
+/*=====  End of buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=============================================
+=                    Banner                   =
+=============================================*/
+/*=====           End of Banner       ======*/
+/*=============================================
+=                     Chips                    =
+=============================================*/
+/*=====            End of Chips            ======*/
+/*=============================================
+=                 Typography                 =
+=============================================*/
+/**
+ *
+ * here we define our actual font that would be used in styles.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+/*=============================================
+ =                  Family                    =
+ =============================================*/
+/*=====           End of Family       ======*/
+/*=============================================
+=            Display fonts             =
+=============================================*/
+/*=====  End of Display fonts   ======*/
+/*=============================================
+ =              Body fonts                =
+ =============================================*/
+/*=====     End of Body font sizes    ======*/
+/*=============================================
+=               Heading font                 =
+=============================================*/
+/* H1 */
+/* H2 */
+/* H3 */
+/*=====      End of Heading font   ======*/
+/*=============================================
+=                   small fonts                 =
+=============================================*/
+/* CTA md */
+/* CTA sm */
+/* Label md */
+/* label sm */
+/* label xs */
+/* caption */
+/* Breadcrumb */
+/*=====         End of small fonts          ======*/
+/*=============================================
+=                   MIXINS                    =
+=============================================*/
+/**
+ *
+ * helpful reusable function-like things that would help to implement styles in components.
+ *
+ *
+ *
+ *
+ *
+ */
+/* breakpoints mixins */
+.dsy-width-none {
+  width: 0rem;
+}
+
+.dsy-height-none {
+  height: 0rem;
+}
+
+.dsy-width-xxxxs {
+  width: 0.125rem;
+}
+
+.dsy-height-xxxxs {
+  height: 0.125rem;
+}
+
+.dsy-width-xxxs {
+  width: 0.25rem;
+}
+
+.dsy-height-xxxs {
+  height: 0.25rem;
+}
+
+.dsy-width-xxs {
+  width: 0.5rem;
+}
+
+.dsy-height-xxs {
+  height: 0.5rem;
+}
+
+.dsy-width-xs {
+  width: 0.75rem;
+}
+
+.dsy-height-xs {
+  height: 0.75rem;
+}
+
+.dsy-width-sm {
+  width: 1rem;
+}
+
+.dsy-height-sm {
+  height: 1rem;
+}
+
+.dsy-width-md {
+  width: 1.5rem;
+}
+
+.dsy-height-md {
+  height: 1.5rem;
+}
+
+.dsy-width-lg {
+  width: 2rem;
+}
+
+.dsy-height-lg {
+  height: 2rem;
+}
+
+.dsy-width-xl {
+  width: 3rem;
+}
+
+.dsy-height-xl {
+  height: 3rem;
+}
+
+.dsy-width-xxl {
+  width: 4.5rem;
+}
+
+.dsy-height-xxl {
+  height: 4.5rem;
+}
+
+.dsy-width-xxxl {
+  width: 6rem;
+}
+
+.dsy-height-xxxl {
+  height: 6rem;
+}
+
+.dsy-fs-xxs {
+  font-size: 0.625rem;
+}
+
+.dsy-fs-xs {
+  font-size: 0.75rem;
+}
+
+.dsy-fs-sm {
+  font-size: 0.875rem;
+}
+
+.dsy-fs-base {
+  font-size: 1rem;
+}
+
+.dsy-fs-lg {
+  font-size: 1.125rem;
+}
+
+.dsy-fs-xl {
+  font-size: 1.5rem;
+}
+
+.dsy-fs-xxl {
+  font-size: 2rem;
+}
+
+.dsy-fs-D1 {
+  font-size: 5rem;
+}
+
+.dsy-fs-D2 {
+  font-size: 3rem;
+}
+
+.dsy-fs-h1 {
+  font-size: 2rem;
+}
+
+.dsy-fs-h2 {
+  font-size: 1.5rem;
+}
+
+.dsy-fs-h3 {
+  font-size: 1.125rem;
+}

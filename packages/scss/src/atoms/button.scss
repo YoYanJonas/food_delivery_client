@@ -1,11 +1,115 @@
 @import "foundation/all";
 
-.dsy-button-container {
-  display: flex;
+$types: primary, secondary, tertiary, stacked;
 
-  background: $btn-primary-bg;
-  color: $btn-primary-color;
+@mixin Button($type) {
+  @if $type == primary {
+    color: $btn-primary-color;
+    background-color: $btn-primary-bg;
+  }
 
-  border: none;
-  padding: map-get($spacing, "xxxs");
+  @if $type == secondary {
+    color: $btn-secondary-color;
+    background-color: $btn-secondary-bg;
+    border: 1px solid $Mariner;
+  }
+
+  @if $type == tertiary {
+    color: $btn-tertiary-color;
+    background-color: $btn-tertiary-bg;
+  }
+
+  @if $type == stacked {
+    color: $btn-stacked-color;
+    background-color: $btn-stacked-bg;
+  }
+}
+@mixin ButtonHover($type) {
+  @if $type == primary {
+    color: $btn-primary-color-hover;
+    background-color: $btn-primary-bg-hover;
+  }
+
+  @if $type == secondary {
+    color: $btn-secondary-color-hover;
+    background-color: $btn-secondary-bg-hover;
+    border: 1px solid $Matisse;
+  }
+
+  @if $type == tertiary {
+    color: $btn-tertiary-color-hover;
+    background-color: $btn-tertiary-bg-hover;
+  }
+
+  @if $type == stacked {
+    color: $btn-stacked-color-hover;
+    background-color: $btn-stacked-bg-hover;
+  }
+}
+
+@mixin ButtonDisabled($type) {
+  @if $type == primary {
+    color: $btn-primary-color-disabled;
+    background-color: $btn-primary-bg-disabled;
+    border: 1px solid $btn-primary-bg-disabled;
+  }
+
+  @if $type == secondary {
+    color: $btn-secondary-color-disabled;
+    background-color: $btn-secondary-bg-disabled;
+    border: 1px solid $btn-secondary-border-disabled;
+  }
+
+  @if $type == tertiary {
+    color: $btn-tertiary-color-disabled;
+    background-color: $btn-tertiary-bg-disabled;
+  }
+
+  @if $type == stacked {
+    color: $btn-stacked-color-disabled;
+    background-color: $btn-stacked-bg-disabled;
+  }
+}
+
+//loop in our types
+
+@each $type in $types {
+  .dsy-#{$type}-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: map-get($spacing, "xs") map-get($spacing, "md");
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+      0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: map-get($spacing, "xxxs");
+    font-family: $HelveticaNeue;
+    font-size: $label-sm-font-size;
+    font-weight: $label-sm-font-weight;
+    line-height: $label-sm-font-height;
+    font-style: normal;
+    letter-spacing: $label-sm-font-spacing;
+    text-transform: $label-sm-font-uppercased;
+    @if $type == primary {
+      border: 1px solid $Mariner;
+    }
+    border: 1px solid $Mariner;
+    @if $type==tertiary {
+      border: 1 solid $Transparent;
+    }
+    @if $type == stacked {
+      border: 1 solid $Transparent;
+    }
+    @include Button($type);
+
+    &:hover {
+      @include ButtonHover($type);
+    }
+
+    &:disabled {
+      @include ButtonDisabled($type);
+    }
+  }
 }

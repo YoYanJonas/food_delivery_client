@@ -58,7 +58,7 @@
  *spacings
  *
  *
- *
+ ***Helper
  *
  */
 /*=============================================
@@ -100,6 +100,10 @@
 =                   Spacing                   =
 =============================================*/
 /*=====         End of Spacing        ======*/
+/*=============================================
+=     some px sizes in rem and root 16px        =
+=============================================*/
+/*=====  End of some px sizes in rem and root 16px  ======*/
 /*=====  End of Variables  ======*/
 /*=============================================
  =                   COLORS                    =
@@ -129,6 +133,14 @@
 =============================================*/
 /*=====  End of Forms  ======*/
 /*=============================================
+=                    Banner                   =
+=============================================*/
+/*=====           End of Banner       ======*/
+/*=============================================
+=                     Chips                    =
+=============================================*/
+/*=====            End of Chips            ======*/
+/*=============================================
 =                 Typography                 =
 =============================================*/
 /**
@@ -141,6 +153,10 @@
  *
  *
  */
+/*=============================================
+ =                  Family                    =
+ =============================================*/
+/*=====           End of Family       ======*/
 /*=============================================
 =            Display fonts             =
 =============================================*/
@@ -647,6 +663,30 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(/packages/scss/public/fonts/HelveticaNeue.woff2) format("woff2"), url(/packages/scss/public/fonts/HelveticaNeue.otf) format("opentype"), url(/packages/scss/public/fonts/HelveticaNeue.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(/packages/scss/public/fonts/HelveticaNeue-Italic.woff2) format("woff2"), url(/packages/scss/public/fonts/HelveticaNeue-Italic.otf) format("opentype"), url(/packages/scss/public/fonts/HelveticaNeue-Italic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(/packages/scss/public/fonts/HelveticaNeue-Bold.woff2) format("woff2"), url(/packages/scss/public/fonts/HelveticaNeue-Bold.otf) format("opentype"), url(/packages/scss/public/fonts/HelveticaNeue-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+}
+
 :root {
   --dsy-body-background-color-light: #eee;
   --dsy-body-text-color-light: #181818;
@@ -656,24 +696,31 @@ template {
   --dsy-body-text-color-dark: #fff;
   --dsy-btn-primary-color: #fff;
   --dsy-btn-primary-bg: #2e77d0;
+  --dsy-btn-primary-color-hover: #fff;
   --dsy-btn-primary-bg-hover: #255fa6;
   --dsy-btn-primary-color-disabled: #9e9e9e;
   --dsy-btn-primary-bg-disabled: #bdbdbd;
   --dsy-btn-secondary-color: #2e77d0;
-  --dsy-btn-secondary-bg: Transparent;
+  --dsy-btn-secondary-bg: rgba(0, 0, 0, 0);
   --dsy-btn-secondary-border: #2e77d0;
-  --dsy-btn-secondary-bg-hover: #255fa6;
-  --dsy-btn-secondary-bg-hover: Transparent;
-  --dsy-btn-secondary-bg-hover: #255fa6;
-  --dsy-btn-secondary-bg-disabled: #bdbdbd;
-  --dsy-btn-secondary-bg-disabled: Transparent;
+  --dsy-btn-secondary-color-hover: #255fa6;
+  --dsy-btn-secondary-bg-hover: rgba(0, 0, 0, 0);
+  --dsy-btn-secondary-border-hover: #255fa6;
+  --dsy-btn-secondary-color-disabled: #bdbdbd;
+  --dsy-btn-secondary-bg-disabled: rgba(0, 0, 0, 0);
   --dsy-btn-secondary-border-disabled: #bdbdbd;
   --dsy-btn-tertiary-color: #2e77d0;
-  --dsy-btn-tertiary-bg: Transparent;
+  --dsy-btn-tertiary-bg: rgba(0, 0, 0, 0);
   --dsy-btn-tertiary-color-hover: #255fa6;
-  --dsy-btn-tertiary-bg-hover: Transparent;
+  --dsy-btn-tertiary-bg-hover: rgba(0, 0, 0, 0);
   --dsy-btn-tertiary-color-disabled: #bdbdbd;
-  --dsy-btn-tertiary-bg-disabled: Transparent;
+  --dsy-btn-tertiary-bg-disabled: rgba(0, 0, 0, 0);
+  --dsy-btn-stacked-color: #2e77d0;
+  --dsy-btn-stacked-bg: rgba(0, 0, 0, 0);
+  --dsy-btn-stacked-color-hover: #255fa6;
+  --dsy-btn-stacked-bg-hover: rgba(0, 0, 0, 0);
+  --dsy-btn-stacked-color-disabled: #bdbdbd;
+  --dsy-btn-stacked-bg-disabled: rgba(0, 0, 0, 0);
   --dsy-form-bg: #fff;
   --dsy-form-color: #fff;
   --dsy-form-input-text-color: #181818;
@@ -684,6 +731,11 @@ template {
   --dsy-form-focus-color: #fff;
   --dsy-form-focus-border: #757575;
   --dsy-form-input-text-color: #000;
+  --dsy-banner-default-bg: #2e77d0;
+  --dsy-banner-error-bg: #e22134;
+  --dsy-chip-bg-color: #d9d9d9;
+  --dsy-chip-color: #181818;
+  --dsy-font-family: Helvetica Neue, Arimo, Arial, sans-serif;
   --dsy-d1-font-size: 5rem;
   --dsy-d1-font-weight: 700;
   --dsy-d1-font-height: 5.5rem;
